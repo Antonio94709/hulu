@@ -1,5 +1,6 @@
 //header icons
 import {HomeIcon,BadgeCheckIcon,CollectionIcon,LightningBoltIcon,SearchIcon,UserIcon,} from "@heroicons/react/outline"
+import Image from "next/image"
 
 import HeaderItem from "./HeaderItem"
 
@@ -23,7 +24,8 @@ function Header() {
             <HeaderItem title="SEARCH" Icon={SearchIcon}/>
             <HeaderItem title="ACCOUNT" Icon={UserIcon}/>
         </div>
-        <h1 className="font-bold text-xl">Hulu</h1>
+        
+        <Image src="/images/hulu.png" height="50" width="150"/>
     </header>
   )
 }
